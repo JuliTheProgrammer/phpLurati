@@ -1,3 +1,10 @@
+<?php
+
+$article = ["132"=>"Schuhen", "1768"=>"Jacken", "1987"=>"Hosen"];
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +13,14 @@
     <title>Php Lurati</title>
 </head>
 <body>
+    <p>
+        <?php
+    
+        //return a text element which return the value of schuhe
+        echo $article["132"];
+
+        ?>
+    </p>
     
 </body>
 </html>
